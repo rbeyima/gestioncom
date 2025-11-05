@@ -4,3 +4,4 @@ from django.db import models
 class Client(models.Model):
     nom = models.CharField(max_length=30)
     postnom = models.CharField(max_length=30)
+    
